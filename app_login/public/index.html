@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Bootstrap CSS -->
+      <title>AuteCod · Sistema de autenticação via QrCode</title>
+  </head>
+  <body>
+
+    <header>
+      <div id="nav-menu"></div>
+    </header>
+<main>
+  <div class="container py-4">
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="card h-100">
+        <img src="img/qrcodeinstrucao.jpg" class="card-img-top" alt="Instrição QrCode">
+        <div class="card-body pb-5">
+            <h2>Aponte o QrCode no leitor</h2>
+            <p class="card-text">Após acessar sua conta, você receberá um ou mais código QR Code.
+              Esta simples ação permetirá seu acesso, caso você esteja previamente autorizado. </p>
+        </div>
+      </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card h-100 px-5 rounded-3 bg-light">
+          <h3 class="pt-3 pb-3">Acesse sua conta</h3>
+            <div id="form-login"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer class="footer mt-auto fixed-bottom py-3 bg-azul">
+  <div class="container">
+    <span class="pt-3 mt-4 text-rodape">©2021 - AuteCode</span>
+  </div>
+</footer>
+    <script src="bootstrap-5.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
